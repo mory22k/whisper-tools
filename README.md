@@ -20,8 +20,8 @@ Specify language and model in the mise.toml file. For example:
 
 ```toml
 [env]
-language = "Japanese"
-model = "turbo"
+LANGUAGE = "Japanese"
+MODEL = "turbo"
 ```
 
 Remove all audio files from the audio directory.

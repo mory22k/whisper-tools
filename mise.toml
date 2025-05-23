@@ -3,5 +3,5 @@ python = "3.11"
 uv = "latest"
 
 [env]
-model = "turbo"
-language = "Japanese"
+MODEL = "turbo"
+LANGUAGE = "Japanese"
