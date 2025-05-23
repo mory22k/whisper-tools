@@ -1,0 +1,16 @@
+[project]
+name = "whisper-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = ["openai-whisper>=20240930", "pydub>=0.25.1", "tqdm>=4.67.1"]
+
+[dependency-groups]
+dev = ["ruff>=0.11.11"]
+
+[tool.ruff.lint]
+select = [
+    "D", # pydocstyle
+    "I", # isort
+]
